@@ -20,7 +20,7 @@ export async function GET() {
 export async function POST(request: NextRequest) {
     try {
         const body = await request.json();
-        const { firstName, lastName, mairie, afterMairie, houppa, petitDejeuner } = body;
+        const { firstName, lastName, mairie, afterMairie, houppa, petitDejeuner, comment } = body;
 
         if (!firstName || !lastName) {
             return NextResponse.json(
@@ -42,6 +42,7 @@ export async function POST(request: NextRequest) {
                 afterMairie: Number(afterMairie) || 0,
                 houppa: Number(houppa) || 0,
                 petitDejeuner: Number(petitDejeuner) || 0,
+                comment: comment?.trim() || null
             },
             create: {
                 firstName: firstName.trim(),
@@ -50,6 +51,7 @@ export async function POST(request: NextRequest) {
                 afterMairie: Number(afterMairie) || 0,
                 houppa: Number(houppa) || 0,
                 petitDejeuner: Number(petitDejeuner) || 0,
+                comment: comment?.trim() || null
             },
         });
 

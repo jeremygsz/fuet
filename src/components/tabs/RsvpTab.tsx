@@ -11,6 +11,7 @@ interface FormData {
     afterMairie: number;
     houppa: number;
     petitDejeuner: number;
+    comment: string;
 }
 
 interface FormErrors {
@@ -35,6 +36,7 @@ export default function RsvpTab() {
         afterMairie: 0,
         houppa: 0,
         petitDejeuner: 0,
+        comment: '',
     });
     const [errors, setErrors] = useState<FormErrors>({});
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -231,7 +233,17 @@ export default function RsvpTab() {
                         </div>
                     ))}
                 </div>
-
+                <div className="form-group" style={{ marginTop: '1rem' }}>
+                    <label htmlFor="comment">Commentaire (optionnel)</label>
+                    <textarea
+                        id="comment"
+                        placeholder="Un message, une allergie, une remarque..."
+                        value={formData.comment}
+                        onChange={(e) => setFormData((prev) => ({ ...prev, comment: e.target.value }))}
+                        rows={3}
+                        style={{ width: '100%', resize: 'vertical' }}
+                    />
+                </div>
                 {submitError && (
                     <motion.p
                         className="error-message"

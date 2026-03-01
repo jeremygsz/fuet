@@ -21,6 +21,7 @@ model Rsvp {
   afterMairie     Int      @default(0)
   houppa          Int      @default(0)
   petitDejeuner   Int      @default(0)
+  comment         String?
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
