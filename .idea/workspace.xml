@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="098c3ad1-0153-4197-9683-dfab5a598c22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/rsvp/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/animations/AnimatedDivider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/animations/AnimatedInitials.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/animations/FloatingParticles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tabs/EventsTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tabs/HotelsTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tabs/RsvpTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/hotels.ts" afterDir="false" />
+    <list default="true" id="098c3ad1-0153-4197-9683-dfab5a598c22" name="Changes" comment="first file commit">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +107,33 @@
       <option name="presentableId" value="Default" />
       <updated>1772295460146</updated>
       <workItem from="1772295461813" duration="85000" />
-      <workItem from="1772295556995" duration="9990000" />
+      <workItem from="1772295556995" duration="11527000" />
     </task>
+    <task id="LOCAL-00001" summary="first file commit">
+      <option name="closed" value="true" />
+      <created>1772361409236</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772361409236</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first file commit">
+      <option name="closed" value="true" />
+      <created>1772361602676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772361602676</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first file commit">
+      <option name="closed" value="true" />
+      <created>1772362655761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772362655761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +141,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.prisma" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first file commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first file commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
