@@ -116,7 +116,6 @@ export default function Home() {
                       whileInView={{ opacity: 1 }}
                       viewport={{ once: true }}
                   >
-                    Nous avons hâte de célébrer avec vous ! 🎉
                   </motion.p>
                 </footer>
               </motion.div>

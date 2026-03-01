@@ -1,14 +1,15 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Clock, MapPin, ExternalLink } from 'lucide-react';
+import {Clock, MapPin, ExternalLink, Calendar} from 'lucide-react';
 
 const events = [
     {
         id: 1,
         emoji: '⚖️',
         title: 'Mairie',
-        time: '10h00',
+        day: '30 juin 2026',
+        time: '14h00',
         location: 'Mairie du 9ème arrondissement',
         address: '6 Rue Drouot, 75009 Paris',
         mapsUrl: 'https://maps.app.goo.gl/AS2Bs6txqFwFG4dr7',
@@ -17,7 +18,8 @@ const events = [
         id: 2,
         emoji: '🥂',
         title: 'After Mairie',
-        time: '12h00',
+        day: '30 juin 2026',
+        time: 'Après la mairie',
         location: 'Chez les Grosz',
         address: '65 rue de Maubeuge, 75009 Paris',
         mapsUrl: 'https://maps.app.goo.gl/s7v6oJ7bbjwzpwii7',
@@ -26,7 +28,8 @@ const events = [
         id: 3,
         emoji: '💍',
         title: 'Houppa & Soirée',
-        time: '18h00',
+        day: '03 août 2026',
+        time: 'à partir de 16h45',
         location: 'Domaine de la Revardiere',
         address: '1 Chemin de la Revardiere, 61400 Feings',
         mapsUrl: 'https://maps.app.goo.gl/xez8i8cTxk2katRW9',
@@ -34,8 +37,9 @@ const events = [
     {
         id: 4,
         emoji: '☀️',
-        title: 'Petit Déjeuner',
-        time: '10h30 (lendemain)',
+        title: 'Brunch',
+        day: '04 août 2026',
+        time: 'À partir de 11h',
         location: 'Domaine de la Revardiere',
         address: '1 Chemin de la Revardiere, 61400 Feings',
         mapsUrl: 'https://maps.app.goo.gl/xez8i8cTxk2katRW9',
@@ -69,8 +73,12 @@ export default function EventsTab() {
                             </div>
                             <div className="event-content">
                                 <div className="event-time-badge">
-                                    <Clock size={16} />
-                                    {event.time}
+                                    <span><Calendar size={16} /> {event.day}</span>
+                                    <span>
+                                        <Clock size={16} />
+                                        {event.time}
+                                    </span>
+
                                 </div>
                                 <h3 className="event-title">
                                     {event.emoji} {event.title}

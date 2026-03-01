@@ -155,7 +155,7 @@ export default function Hero() {
                         opacity: 0.8,
                     }}
                 >
-                    02 Août 2026
+                    03 Août 2026
                 </motion.p>
 
                 {/* Compte à rebours */}
