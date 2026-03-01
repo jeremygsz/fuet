@@ -10,6 +10,7 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@prisma/adapter-neon": "^7.4.2",
     "@prisma/client": "^7.4.2",
     "@vercel/postgres": "^0.10.0",
     "framer-motion": "^12.34.3",
