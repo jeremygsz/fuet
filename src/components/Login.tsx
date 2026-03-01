@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Lock, Heart } from 'lucide-react';
+import {Lock, Heart, Settings} from 'lucide-react';
+import Link from "next/link";
 
 interface LoginProps {
     onLogin: (password: string) => boolean;
@@ -67,6 +68,17 @@ export default function Login({ onLogin }: LoginProps) {
                     </motion.button>
                 </form>
             </motion.div>
+            <Link href="/admin">
+                <motion.div
+                    className="admin-settings-link"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 0.6 }} // Légèrement transparent pour rester discret
+                    whileHover={{ opacity: 1, scale: 1.1, rotate: 90 }}
+                    transition={{ duration: 0.3 }}
+                >
+                    <Settings size={24} color="#FFFFFF" />
+                </motion.div>
+            </Link>
         </div>
     );
 }
