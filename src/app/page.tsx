@@ -16,7 +16,7 @@ import Hero from "@/components/Hero";
 
 type Tab = 'events' | 'hotels' | 'rsvp';
 
-const PASSWORD = process.env.NEXT_PUBLIC_WEDDING_PASSWORD || 'mariage2025';
+const PASSWORD = process.env.NEXT_PUBLIC_WEDDING_PASSWORD || 'mazeltov2026';
 
 export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
