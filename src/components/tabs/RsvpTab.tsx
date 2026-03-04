@@ -23,7 +23,7 @@ const eventFields = [
     { key: 'mairie', label: 'Mairie', emoji: '⚖️' },
     { key: 'afterMairie', label: 'After Mairie', emoji: '🥂' },
     { key: 'houppa', label: 'Houppa & Soirée', emoji: '💍' },
-    { key: 'petitDejeuner', label: 'Petit Déjeuner', emoji: '☀️' },
+    { key: 'petitDejeuner', label: 'Brunch', emoji: '☀️' },
 ] as const;
 
 type EventKey = typeof eventFields[number]['key'];

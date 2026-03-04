@@ -48,6 +48,9 @@ export default function HotelsTab() {
                 transition={{ duration: 0.5 }}
             >
                 <h2 className="section-title">Hébergements à proximité</h2>
+                <p className="tips">
+                    N’hésitez pas à regarder airbnb et gîte de France
+                </p>
                 <p className="section-subtitle">
                     Quelques adresses soigneusement sélectionnées près du lieu de réception
                 </p>
