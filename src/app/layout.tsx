@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
     openGraph: {
         title: 'Mariage Agathe & Calvin',
-        description: 'Mariage Agathe & Calvin',
+        description: 'Toutes les infos dont vous avez besoin pour célébrer notre mariage',
         url: 'https://ton-site.vercel.app',
         siteName: 'Toutes les infos dont vous avez besoin',
         locale: 'fr_FR',
